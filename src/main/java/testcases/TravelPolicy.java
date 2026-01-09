@@ -22,8 +22,8 @@ public class TravelPolicy {
 		//Verify that the number of days between the dates is equal to the actual total.
 		Verifications.verifyEquals(actualSum, String.valueOf(expectedSum));
 		UiActions.click(page(DatePage.class).next());
-		//Verify that the URL changed after redirect to the page.
-		Verifications.verifyText(getUrl(), "travel-policy/wizard/travelers");
+		//Verify that the title in the new page.
+		Verifications.verifyText(getTile(), "מילוי פרטי הנוסעים | רכישת ביטוח נסיעות לחו\"ל");
 	}
 
 	private static String getCurrentDate(int offset) {
