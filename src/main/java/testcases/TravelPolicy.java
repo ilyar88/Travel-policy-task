@@ -22,7 +22,7 @@ public class TravelPolicy {
 		//Verify that the number of days between the dates is equal to the actual total.
 		Verifications.verifyEquals(actualSum, String.valueOf(expectedSum));
 		UiActions.click(page(DatePage.class).next());
-		//Verify that the URL changed after redirect to the page
+		//Verify that the URL changed after redirect to the page.
 		Verifications.verifyText(getUrl(), "travel-policy/wizard/travelers");
 	}
 
