@@ -29,7 +29,7 @@ public class UiActions {
     }
 
     public static String getText(WebElement elem) {
-    	// Search for the first number in the text, if no number return all the text
+    	// Search for the first number in the text, if no number return all the text.
         String text = elem.getText();
         Matcher num = Pattern.compile("-?\\d+").matcher(text);
         String r = num.find() ? num.group() : text;
