@@ -20,4 +20,8 @@ public class ManagePages {
 	public static String getUrl() {
 	    return _driver.getCurrentUrl();
 	}
+	
+	public static String getTile() {
+	    return _driver.getTitle();
+	}
 }
