@@ -4,7 +4,7 @@
 
 Check travel policy website.
 
-## Testcse description
+## Testcase description
 
 1. Open the Travel Policy URL in the Chrome browser
 2. Click the “First-time purchase” button
