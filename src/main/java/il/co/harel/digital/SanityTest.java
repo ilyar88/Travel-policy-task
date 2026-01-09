@@ -12,7 +12,7 @@ public class SanityTest extends BasePage {
 	}
 	
 	@Test(description = "Purchasing travel insurance for traveling abroad.")
-	public void travelPolicytest() {
+	public void travelPolicyTest() {
 		
 		TravelPolicy.travel();	
 	}
