@@ -17,6 +17,8 @@ Check travel policy website.
 7. Click “Continue to passenger details” button
 8. Verify that the Passenger Details page opens successfully
 
+---
+
 Run the following command in the terminal:
    ```bash
    mvn clean test
