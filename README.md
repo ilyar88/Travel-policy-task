@@ -4,7 +4,7 @@
 
 Check travel policy website.
 
-## Testcase description
+## Test case description
 
 1. Open the Travel Policy URL in the Chrome browser
 2. Click the “First-time purchase” button
@@ -19,7 +19,14 @@ Check travel policy website.
 
 ---
 
-Run the following command in the terminal:
+## Run the test case as described
+
+Run git clone in the terminal:
+   ```bash
+   git clone https://github.com/ilyar88/Travel-policy-task.git
+   ```
+
+Run mvn test in the terminal:
    ```bash
    mvn clean test
    ```
