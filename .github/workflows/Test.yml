@@ -1,5 +1,8 @@
 name: Run travel policy website test
 
+on:
+  workflow_dispatch:
+
 jobs:
  Test:
     name: test
