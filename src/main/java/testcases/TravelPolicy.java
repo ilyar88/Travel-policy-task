@@ -19,7 +19,7 @@ public class TravelPolicy {
 		UiActions.click(page(DatePage.class).datePicker(getCurrentDate(37)));
 		int expectedSum = getDateRange(getCurrentDate(7),getCurrentDate(37));
 		String actualSum = UiActions.getText(page(DatePage.class).totalDays());
-		//Verify that the number of days between the dates is equal to the actual total.
+		//Verify that the number of days between the dates is equal to the actual days.
 		Verifications.verifyEquals(actualSum, String.valueOf(expectedSum));
 		UiActions.click(page(DatePage.class).next());
 		//Verify that the title in the new page.
