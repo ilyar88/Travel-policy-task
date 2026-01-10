@@ -16,3 +16,8 @@ Check travel policy website.
 6. Verify that the total number of travel days is displayed correctly
 7. Click “Continue to passenger details” button
 8. Verify that the Passenger Details page opens successfully
+
+Run the follwoing command in the terminal:
+   ```bash
+   mvn clean test
+   ```
