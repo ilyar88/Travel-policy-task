@@ -76,7 +76,7 @@ public class BasePage {
                 EdgeOptions eOpts = new EdgeOptions();
                 eOpts.addArguments("--user-data-dir=" + tempProfileDir.toAbsolutePath());
                 eOpts.addArguments("--window-size=1920,1080");
-                if (headless) eOpts.addArguments("--headless=new"); // fixed for Edge
+                if (headless) eOpts.addArguments("--headless=new");
                 driver = new EdgeDriver(eOpts);
                 break;
 
@@ -86,7 +86,7 @@ public class BasePage {
                 ChromeOptions cOpts = new ChromeOptions();
                 cOpts.addArguments("--user-data-dir=" + tempProfileDir.toAbsolutePath());
                 cOpts.addArguments("--window-size=1920,1080");
-                if (headless) cOpts.addArguments("--headless=new"); // fixed for Chrome
+                if (headless) cOpts.addArguments("--headless=new");
                 driver = new ChromeDriver(cOpts);
         }
         return driver;
