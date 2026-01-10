@@ -1,0 +1,23 @@
+name: Run travel policy website test
+
+jobs:
+  test:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin # Set up Java 17 (Temurin distribution)
+          java-version: 17
+
+      - run: mvn clean test
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Surefire reports # Run tests and generate surefire-reports
+          path: target/surefire-reports
+
+
+
