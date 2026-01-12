@@ -1,10 +1,26 @@
 # Automation task for Harel
 
-## About
+### Scope
 
-Check travel policy website.
+1. Task objective: 
+<br/>• My task was to test the system from the customer’s perspective when purchasing travel insurance abroad.
+<br/>• To ensure that the travel insurance purchase process works as expected.
+<br/><br/>
+2. Assumptions taken into account:
+<br/>• Assuming that the element names and identifiers don't change, there are no delays when clicking buttons that required additional checks to ensure that the element is clickable, the URIs is fixed, and the steps in the process can be performed as expected without exception like: NoSuchElement, elementClickIntercepted or WebDriverException.
+<br/><br/>
+3. Limitations and risks:
+<br/>• The test was performed on a basic purchase scenario for travel insurance
+<br/>• The focus was on UI and E2E testing using Selenium, Java, and TestNG
+<br/>• The test was performed assuming that the elements, URI, and business flow are stable
+<br/><br/>
+4. Additional tests
+<br/>• Edge cases such as invalid dates, navigating back, and refreshing page how it will affect the purchasing process?
+<br/>• Testing the same testcase in parallel across multiple browsers using Selenium Grid
+<br/>• Add an Allure report with screenshots or recordings with Licenser class implementation in case of failure
+<br/>• Testing UI with AI using Applitools
 
-## Test case description
+### Testcase description
 
 1. Open the Travel Policy URL in the Chrome browser
 2. Click the “First-time purchase” button
@@ -19,7 +35,7 @@ Check travel policy website.
 
 ---
 
-## Run the test case as described
+### Run the testcase as described
 
 Run git clone in the terminal:
    ```bash
@@ -30,3 +46,9 @@ Run mvn test in the terminal:
    ```bash
    mvn clean test
    ```
+   
+---  
+   
+### In conclusion:
+
+I would start with the critical scenarios in the sanity or in the regression testing, such as purchasing insurance abroad, and then move on to less critical scenarios in the priority.
