@@ -3,11 +3,11 @@
 ### Scope
 
 1. Task objective: 
-<br/>• My task was to test the system from the customer’s perspective when purchasing travel insurance abroad.
-<br/>• To ensure that the travel insurance purchase process works as expected.
+<br/>• My task was to test the system from the customer’s perspective when purchasing travel insurance abroad
+<br/>• To ensure that the travel insurance purchase process works as expected
 <br/><br/>
 2. Assumptions taken into account:
-<br/>• Assuming that the element names and identifiers don't change, there are no delays when clicking buttons that required additional checks to ensure that the element is clickable, the URIs is fixed, and the steps in the process can be performed as expected without exception like: NoSuchElement, elementClickIntercepted or WebDriverException.
+<br/>• Assuming that the element names and identifiers don't change, there are no delays when clicking buttons that required additional checks to ensure that the element is clickable, the URIs is fixed, and the steps in the process can be performed as expected without exception like: NoSuchElement, elementClickIntercepted or WebDriverException
 <br/><br/>
 3. Limitations and risks:
 <br/>• The test was performed on a basic purchase scenario for travel insurance
